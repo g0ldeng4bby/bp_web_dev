@@ -1,0 +1,37 @@
+.about-author {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Sigmar";
+    color:#ff2eaf
+}
+.base-text{
+    font-weight: bold;
+    font-family: "Madimi";
+    color: #a82857;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+}
+button{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 10px;
+
+}
+#breed{
+    padding:10px;
+    margin-top: 20px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+#submit:hover
